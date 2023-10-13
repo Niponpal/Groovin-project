@@ -1,0 +1,530 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+
+:root{
+    --primary-color:000;
+    --secondary-color:000;
+    --color-white:white;
+    --color-black:black;
+    --size-lg:2.5rem;
+    --size-md:1.10rem;
+    --size-sm:.90rem;
+}
+
+/* <!-- Navbar Start --> */
+
+.navbar-area  {
+    background-color: rgb(26, 25, 25) !important;
+    
+}
+
+
+.navbar-area .navbar .container a {
+    color: var(--color-white) !important;
+}
+
+.navbar-area .navbar .container .navbar-brand{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar-area .navbar .container .navbar-brand  span  {
+    color: red !important;
+    font-size: 35px;
+   
+}
+
+.navbar-area .navbar .container .collapse .navbar-nav .nav-item:hover {
+   border-bottom: 2px solid aqua;
+}
+
+
+
+/* <!-- Navbar End --> */
+
+/*     <!-- Slidar Start -->  */
+.slidar-area .carousel {
+    width: 100%;
+    height:70vh ;
+}
+
+.slidar-area .carousel .carousel-inner {
+    width: 100%;
+    height:100% ;
+}
+
+.slidar-area .carousel .carousel-inner .carousel-item {
+    width: 100%;
+    height:100% ;  
+}
+
+
+.slidar-area .carousel .carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: 100px;
+}
+
+.slidar-area .carousel .carousel-inner .carousel-item .carousel-caption h5{
+    font-size: 30px;
+    color: orange;
+}
+
+.slidar-area .carousel .carousel-inner .carousel-item .carousel-caption p{
+    color: aqua;
+}
+
+ .slidar-area .carousel .carousel-indicators button{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+ }
+
+ .slidar-area .carousel .carousel-indicators button.active{
+    background-color: red;
+ }
+
+/*     <!-- Slidar End -->  */
+
+/* <!-- Image area start --> */
+
+.imge-area .container .img  {
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+}
+
+/* <!-- Image area end --> */
+
+/* <!--Voluptatem area Start  --> */
+.volupatem-area .container .volupatem-header h1{
+    padding: 5px;
+}
+
+.volupatem-area .container .volupatem-header h1 span{color: red;}
+
+.volupatem-area .container .row .card{
+    border: none;
+}
+.volupatem-area .container .row .card .text-area .logo i{
+    font-size: 40px;
+    color: #5eb914;
+
+    padding: 10px;
+}
+/* <!--Voluptatem area end  --> */
+
+
+/* <!-- Counter area Start --> */
+.counter-area {
+    background-color: antiquewhite;
+}
+.counter-area .container .row .card {
+    border: none;
+}
+.counter-area .container .row .card .text-area .logo i {
+    font-size: 40px;
+    color: #5eb914;
+    padding-right: 10px;
+   
+}
+/* <!-- Counter area End --> */
+
+
+/*  <!-- Client area Start --> */
+.client-area  {
+    background-color: rgb(174, 177, 179);
+}
+
+.client-area .container .row .card {
+    border: none;
+}
+
+.client-area .container .row .card .img-area {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(174, 177, 179);
+}
+
+
+.client-area .container .row .card .img-area img{
+    height: 100%; 
+    width: 100%;
+    background-color: rgb(174, 177, 179);
+}
+
+.client-area .container .row .card .img-area img:hover{
+    width: 100px;
+    height: 100px;
+}
+
+/* <!-- Servies Area Start --> */
+.servies-area .container .serve-head h1{
+    text-align: center;
+    color: #5eb914;
+    font-style: italic;
+}
+.servies-area .container .serve-head .main-div{
+width: 200px;
+height: 10px;
+background-color: blue;
+position: relative;
+margin: auto;
+}
+.servies-area .container .serve-head .main-div .logo{
+width: 30px;
+height: 30px;
+background-color: rgb(25, 182, 143);
+border-radius: 100%;
+position: absolute;
+top: -10px;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+border: 4px solid white;
+
+
+
+}
+
+
+.servies-area .container  .row .card {
+    border: none;
+}
+
+
+.servies-area .container  .row .card .logo{
+    width: 120px;
+    height: 120px;
+    border-radius:100%;
+    border: 5px solid black;
+    position: relative;
+    margin: auto;
+
+}
+
+.servies-area .container  .row .card .logo:hover{
+   background-color: orange;
+  
+}
+
+.servies-area .container  .row .card .logo span {
+position: absolute;
+text-align: center;
+width: 120px;
+margin-top: 10px;
+}
+
+.servies-area .container  .row .card .logo span i{
+    font-size: 50px;
+    color: #5eb914;
+}
+
+.servies-area .container  .row .card .text  p{
+    text-align: center;
+    border-bottom: 1px solid  #5eb914;
+    font-size: var(--size-md);
+    font-weight: bold;
+}
+
+/* <!-- Servies Area End --> */
+
+
+/* Why Us area Start */
+
+.why-area .container .why-header h1 {
+    text-align: center;
+    color: #5eb914;
+    font-style: italic;
+}
+
+
+.why-area .container .row .card.text{
+    
+}
+.why-area .container .row .card {
+    height: 210px;
+}
+
+.why-area .container .row .nipon{
+    height: 230px !important;
+    background-color: rgb(206, 213, 219);
+}
+
+.why-area .container .row .card .text-area h1{
+    color: #5eb914;
+  margin-left: 15px;
+}
+.why-area .container .row .card .text-area {
+padding: 15px;
+}
+
+/* Why Us area End */
+
+/* <!-- PORTFOLIO Area Start --> */
+
+.portfolio-area .container .portolio-header h1{
+    text-align: center;
+    color: #5eb914;
+    font-size: var(--size-lg);
+    font-style: italic;
+}
+
+.portfolio-area .container .portolio-header p{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.portfolio-area .container .nav-area .nav{
+    justify-content: center;
+   
+}
+
+.portfolio-area .container .nav-area .nav .nav-item .nav-link {
+    background-color:white;
+   
+}
+
+.portfolio-area .container .nav-area .nav .nav-item .nav-link a{
+    text-decoration: none;
+    color: var(--color-black) !important;
+}
+
+.portfolio-area .container .nav-area .nav .nav-item .nav-link.active{
+    background-color: #5eb914;
+}
+
+
+.portfolio-area .container .row .card {
+    width: 250px !important;
+    height: 150px;
+    border: 1px solid red;
+}
+
+
+.portfolio-area .container .row .card  .img-area{
+    width: 100%;
+    height: 100%;
+} 
+
+.portfolio-area .container .row .card  .img-area img{
+    width: 100%;
+    height: 100%; 
+}
+
+.portfolio-area .container .row .card  .img-area:hover img{
+    transform: scale(1.2);
+    transition: .6s;
+}
+
+/* <!-- PORTFOLIO Area End --> */
+
+
+
+/* <!-- TEAM area STart --> */
+.tea-area .container .tem-header {
+    text-align: center;
+    padding: 10px;
+}
+.tea-area .container .tem-header h1{
+    color: #5eb914;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.tea-area .container .row .card {
+    width: 280px;
+    height: 300px;
+}
+
+
+.tea-area .container .row .card .img-area {
+    width: 100%;
+    height: 100%;
+}
+
+
+.tea-area .container .row .card .img-area img{
+    width: 100%;
+    height: 100%; 
+}
+/* <!-- TEAM area End --> */
+
+/* <!-- pricing area STart --> */
+.pricing-area .container .price-head {
+    text-align: center;
+    padding: 10px;
+}
+
+.pricing-area .container .price-head h1{
+    color: #5eb914;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.pricing-area .container .price-head h1 span{
+    color: red;
+    font-size:4rem;
+}
+
+.pricing-area .container .row .card .text{
+    text-align: center;
+}
+.pricing-area .container .row .card .text h1 span{
+    font-size: 60px;
+    color: #5eb914;
+}
+
+.pricing-area .container .row .card .text h1 sup{
+    color: #5eb914;
+    padding: 10px;
+}
+
+.pricing-area .container .row .card .iteam Ul{
+    list-style: none;
+    text-align: center;
+ 
+}
+
+.pricing-area .container .row .card .iteam Ul li{
+    border-bottom: 2px solid rgb(201, 196, 196);
+    font-style: italic;
+}
+
+.pricing-area .container .row .card .btn{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid orange;
+}
+.pricing-area .container .row .card .btn:hover{
+    background-color: #5eb914;
+}
+.pricing-area .container .row .card {
+    border: none;
+}
+
+.pricing-area .container .row  .busnies{
+    background-color: aqua;
+}
+/* <!-- pricing area End --> */
+
+
+/* <!-- About Area Start --> */
+.about-area .container{
+    background-color: rgb(133, 131, 129);
+}
+.about-area .container .about-head .text {
+    text-align: center;
+    padding: 10px;
+}
+
+.about-area .container .about-head .text h1{
+    color: #5eb914;
+    font-style: italic;
+}
+
+
+/* <!-- About Area End --> */
+
+/* <!-- Contact Area Start --> */
+.contact-area .container .cont-head .text-area {
+    text-align: center;
+    padding: 10px;
+}
+.contact-area .container .cont-head .text-area h1{
+    color: #5eb914;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.contact-area .container .row .card .logo{
+    align-items: center;
+    text-align: center;
+}
+.contact-area .container .row .card .logo span{
+    font-size: 80px;
+    color: #5eb914;
+   
+}
+
+
+
+.contact-area .container .row .card .logo a{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(169, 169, 170);
+
+}
+
+.contact-area .container .row .card{
+    border: none;
+    border-right: 2px solid rgb(151, 151, 151);
+}
+
+
+.contact-area .container .form-area textarea{
+    border: 2px solid orange;
+}
+
+.contact-area .container .form-area button {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid orange;
+}
+.contact-area .container .form-area .button .btn{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/* <!-- Contact Area End --> */
+
+
+/* <!-- Footer Area Start --> */
+.footer-area footer {
+    background-color: #1d1d1d;
+    overflow: hidden;
+}
+
+.footer-area footer .row .f-head {
+    text-align: center;
+    align-items: center;
+   
+}
+.footer-area footer .row .f-head h3{
+    color: rgb(192, 135, 13);
+}
+.footer-area footer .row .f-head h3 .bi{
+font-size: 40px;
+color: #5eb914;
+}
+
+.footer-area footer .row  .text ul li {
+    list-style: none;
+    left: 10px;
+    padding-right: 10px;
+}
+
+.footer-area footer .row  .text ul li a{
+    text-decoration: none;
+    color:white;
+    overflow: hidden;
+ 
+   
+}
+
+/* <!-- Footer Area Start --> */
